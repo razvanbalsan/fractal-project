@@ -18,10 +18,10 @@ Fractal IT SRL a fost înființată în **2011** cu misiunea clară de a oferi s
 Din 2011 până în prezent, am rezolvat mii de probleme IT, de la simple configurări software până la recuperări complexe de date și reparații avansate de hardware.
 
 ### 👨‍💼 **Echipă de Specialiști**
-Echipa noastră este formată din tehnicieni cu certificări internaționale și experiență practică în toate domeniile IT moderne.
+Echipa noastră este formată din tehnicieni cu experiență practică în domeniul IT.
 
 ### 🏆 **Reputație Solidă**
-Mii de clienți mulțumiți ne-au recomandat prietenilor și familiei, făcându-ne una dintre cele mai respectate companii IT din Cluj-Napoca.
+Mii de clienți mulțumiți ne-au recomandat prietenilor și familiei, făcându-ne una dintre cele mai respectate service-uri IT din Cluj-Napoca.
 
 ## Filosofia Noastră
 
