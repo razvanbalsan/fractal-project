@@ -21,7 +21,7 @@ excerpt: "Contactați Fractal IT pentru servicii profesionale de reparații lapt
 
 ### 🕒 **Program de Lucru**
 - **Luni – Vineri:** 9:00 – 17:30
-- **Sâmbătă:** 9:00 – 13:00
+- **Sâmbătă:** Închis
 - **Duminică:** Închis
 
 ---
@@ -57,7 +57,5 @@ Fiecare situație este unică - vă oferim soluții și prețuri adaptate nevoil
 
 ### 🛡️ **Garanție și Încredere**
 Toate lucrările noastre vin cu garanție și sunt efectuate de specialiști cu experiență de peste 14 ani.
-
-**© Copyright 2011 - 2025 | FRACTAL IT SRL | All Rights Reserved**
 
 *Fractal IT - Cel mai prietenos service laptop din Cluj-Napoca!*

@@ -83,7 +83,7 @@ Suntem situați în **Cluj-Napoca**, pe strada **Ilie Măcelaru numărul 26**, �
 
 **Program de lucru:**
 - **Luni – Vineri:** 9:00 – 17:30
-- **Sâmbătă:** 9:00 – 13:00
+- **Sâmbătă:** Închis
 - **Duminică:** Închis
 
 ## Contactați-ne
