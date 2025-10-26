@@ -1,27 +1,27 @@
 # Copilot Instructions for Fractal IT Website
 
 ## Project Overview
-This is a Jekyll-based professional IT services website for Fractal IT SRL, a laptop repair and IT consulting company in Cluj-Napoca, Romania. Built using the Minimal Mistakes theme with a "neon" skin, the site features comprehensive Romanian-language content for IT services, laptop repairs, data recovery, and business consulting.
+Acesta este un site profesional de servicii IT pentru Fractal IT SRL (service laptop, recuperare date și consultanță IT în Cluj-Napoca) construit cu Jekyll și tema remote **Feeling Responsive** (`remote_theme: Phlow/feeling-responsive`). Conținutul este 100% în limba română și structurat pe servicii principale (reparații, laptop, recuperare date, contact, despre).
 
 ## Architecture & Key Components
 
-### Jekyll Configuration (`_config.yml`)
-- Uses `minimal-mistakes-jekyll` theme with "neon" skin
-- Custom branding: Fractal IT with logo at `/assets/images/fractal_logo.png`
-- Site URL: `https://fractal.ro`
-- Feed disabled (`atom_feed.hide: true`)
-- Romanian language content with business contact information
-- Custom footer with company details and contact info
+### Config Jekyll (`_config.yml`)
+- Folosește `remote_theme: Phlow/feeling-responsive`
+- `language: 'ro'`, permalink pattern: `/:categories/:title/`
+- Paginare activă: `paginate: 5` în `blog/page:num`
+- Plugins cheie: `jekyll-remote-theme`, `jekyll-paginate`, `jekyll-sitemap`, `jekyll-gist`, `jemoji`, `jekyll-include-cache`
+- Metadate business (title, email, phone, address) plus descriere SEO în română
+- Layout-uri standard: `page` pentru pagini, `post` pentru articole
 
-### Content Structure
-- **Homepage** (`index.markdown`): Main business landing page with services overview and contact CTA
-- **Services** (`servicii.markdown`): Comprehensive IT services listing with technical details
-- **Laptop Repairs** (`laptop.markdown`): Specialized laptop repair services and hardware fixes
-- **Data Recovery** (`recuperare-date.markdown`): Professional data recovery for HDD/SSD/RAID systems
-- **Contact** (`contact.markdown`): Multi-modal contact page with business hours and location
-- **About** (`about.markdown`): Company history and team expertise
-- **Posts** (`_posts/`): Business announcements and IT service updates
-- **Navigation** (`_data/navigation.yml`): Multi-page business navigation structure
+### Structură Conținut
+- `index.markdown` – landing principal (layout: `default` + subheadline/teaser)
+- `servicii.markdown` – listă servicii IT (toc activ)
+- `laptop.markdown` – reparații și întreținere laptop
+- `recuperare-date.markdown` – recuperare HDD/SSD/RAID/Flash
+- `contact.markdown` – formular mailto + detalii business + urgențe
+- `about.markdown` – descriere companie, experiență 14+ ani
+- `_posts/` – anunțuri și noutăți
+- `_data/navigation.yml` – meniul principal (Acasă, Servicii, Laptop, Recuperare Date, Contact)
 
 ### Key Features & Patterns
 
@@ -32,35 +32,37 @@ All content is in Romanian with technical terminology properly localized:
 - Business hours and location information in local format
 - Professional tone suitable for B2B and B2C clients
 
-#### Service-Oriented Structure
-- Detailed service pages with technical specifications
-- Clear pricing transparency (50 lei evaluation fee)
-- Professional consultation and emergency service options
-- Hardware repair specializations (reballing, component replacement)
+#### Structură Orientată pe Servicii
+- Pagini dedicate pentru categorii majore
+- Tarif evaluare vizibil: **50 lei**
+- Secțiuni pentru urgențe și consultanță
+- Specializări hardware (reballing, recuperare date, înlocuire componente)
 
-#### Contact Integration
-- Multiple contact methods (phone, email, physical location)
-- Business hours clearly displayed
-- Emergency contact options for urgent repairs
-- Physical address: "Ilie Măcelaru 26, Cluj-Napoca"
+#### Integrare Contact
+- Telefon, email, adresă, program afișate consecvent
+- Formular rapid (mailto) fără backend
+- Secțiune urgențe (accent pe telefon)
 
-## Development Workflows
-
-### Local Development
+### Flux Dezvoltare & Deploy
+Local:
 ```bash
+bundle install
 bundle exec jekyll serve
 ```
+Notă: Dacă apare eroare SSL la `jekyll-remote-theme`, pe GitHub Actions build-ul trece. Soluții locale: actualizați certificatele sistemului sau vopsiți tema local (clonați repo în `_themes/` și eliminați `remote_theme`).
 
-### Deployment
-- GitHub Actions workflow (`.github/workflows/jekyl.yaml`)
-- Deploys to GitHub Pages on `master` branch pushes
-- Uses Ruby 3.3 with ubuntu-22.04 runner
-- Build command: `bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"`
+Deploy (GitHub Pages + Actions):
+- Workflow: `.github/workflows/jekyl.yaml` (build + deploy)
+- Trigger: push pe `master`
+- Domeniu: `CNAME` → `fractal.ro`
+- Ruby pinned 3.3, runner `ubuntu-22.04`
+- Build: `bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"`
 
-### Dependencies (Gemfile)
-- Core: `jekyll` + `minimal-mistakes-jekyll`
-- Plugins: `jekyll-paginate`, `jekyll-sitemap`, `jekyll-gist`, `jemoji`, `jekyll-include-cache`, `jekyll-algolia`
-- Note: `jekyll-feed` is commented out (matches config)
+### Dependențe (Gemfile)
+- Core: `jekyll`
+- Teme: remote via `jekyll-remote-theme` (nu există gem theme local)
+- Plugin-uri: `jekyll-remote-theme`, `jekyll-paginate`, `jekyll-sitemap`, `jekyll-gist`, `jemoji`, `jekyll-include-cache`
+- Eliminat: `minimal-mistakes-jekyll`, `jekyll-algolia` (nefolosit actualmente)
 
 ## Project-Specific Conventions
 
@@ -78,22 +80,21 @@ bundle exec jekyll serve
 - Address: "Ilie Măcelaru 26, Cluj-Napoca"
 - Hours: "Luni – Vineri 9:00 – 17:30 | Sâmbătă 9:00 – 13:00"
 
-### Page Structure Patterns
-- All main pages use `layout: single` with header overlays
-- Service pages include table of contents (`toc: true`)
-- Contact CTAs consistently placed at page bottoms
-- Footer includes complete business information and copyright
+### Pattern Layout Pagini
+- `layout: default` pentru homepage
+- `layout: page` pentru pagini statice
+- `layout: post` pentru articole
+- TOC manual prin structură heading (tema nu generează automat ca Minimal Mistakes)
 
-### Service Presentation
-- Evaluation fee clearly stated: "50 lei"
-- Emergency services highlighted for urgent repairs
-- Technical services grouped by expertise (hardware, software, data recovery)
-- Professional consultation available for both individuals and businesses
+### Prezentare Servicii
+- Tarif evaluare fix: 50 lei
+- Secțiuni separate hardware / software / recuperare date
+- Blocuri call-to-action la finalul paginilor tehnice
 
-### Image Management
-- Business photos stored in `/assets/images/`
-- Header overlays for professional appearance
-- Consistent image sizing and optimization for web
+### Imagini & Media
+- Imagini în `/assets/images/`
+- `teaser` și `subheadline` pentru homepage
+- Se pot adăuga favicon & og:image ulterior
 
 ### SEO and Accessibility
 - Romanian meta descriptions and titles
@@ -101,4 +102,4 @@ bundle exec jekyll serve
 - Alt text for images in Romanian
 - Local business schema markup opportunities
 
-When working on this project, prioritize professional Romanian business presentation, maintain accurate contact information, ensure mobile responsiveness for local customers, and preserve the technical credibility needed for IT service trust.
+Focus: păstrați consistența brandului, corectitudinea termenilor tehnici în română, claritatea serviciilor și integritatea datelor de contact. Evitați reintroducerea elementelor specifice Minimal Mistakes.

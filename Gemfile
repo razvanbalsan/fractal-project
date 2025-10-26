@@ -48,7 +48,8 @@ source "https://rubygems.org"
 # To upgrade, run `bundle update`.
 
 gem "jekyll"
-gem "minimal-mistakes-jekyll"
+## Switched theme to Feeling Responsive via remote_theme (no gem required)
+gem "jekyll-remote-theme"
 
 # The following plugins are automatically loaded by the theme-gem:
 #   gem "jekyll-paginate"
@@ -61,11 +62,10 @@ gem "minimal-mistakes-jekyll"
 # Cf. https://jekyllrb.com/docs/plugins/installation/
 # If you have any plugins, put them here!
 group :jekyll_plugins do
+  gem "jekyll-remote-theme"
   gem "jekyll-paginate"
   gem "jekyll-sitemap"
   gem "jekyll-gist"
-  # gem "jekyll-feed"
   gem "jemoji"
   gem "jekyll-include-cache"
-  gem "jekyll-algolia"
 end
