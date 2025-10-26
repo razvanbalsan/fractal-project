@@ -4,7 +4,7 @@ title: "Service Laptop în Cluj-Napoca"
 excerpt: "Diagnostic rapid. Reparații laptop, recuperare date, optimizare și consultanță IT."
 permalink: /
 header:
-  overlay_image: /assets/images/laptop-repair-header.jpg
+  overlay_image: /assets/images/homepage-repair-header.jpg
   overlay_filter: 0.5
 toc: false
 toc_label: "Cuprins"
