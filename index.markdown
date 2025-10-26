@@ -76,6 +76,6 @@ Pentru modele de gaming putem aplica soluții termice premium (ex. Thermal Grizz
 
 <div style="text-align: center; margin: 30px 0; padding: 20px; background: #f8f9fa; border-radius: 10px;">
   <h3>Ai nevoie de ajutor?</h3>
-  <p>Scrie-ne sau adu laptopul pentru evaluare. Cost evaluare: <strong>50 lei</strong> (scăzut din lucrare dacă se acceptă intervenția).</p>
+  <p>Scrie-ne sau adu laptopul pentru evaluare. <br>Cost evaluare: <strong>50 lei</strong> (scăzut din lucrare dacă se acceptă intervenția).</br></p>
   <a href="/contact/" class="btn btn--primary btn--large">Trimite solicitare</a>
 </div>

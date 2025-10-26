@@ -43,16 +43,18 @@ a { transition: color .18s ease, background-color .18s ease; }
 .compact-head .page__title { font-size: clamp(1.55rem, 2vw, 1.95rem); margin-bottom: .4rem; }
 .compact-head .page__lead { font-size: .95rem; line-height: 1.45; max-width: 760px; }
 
-/* Responsive map embed */
+/* Responsive map embed (enlarged) */
 .map-embed { 
   position: relative; 
   width: 100%; 
-  aspect-ratio: 16 / 9; 
   background: #f5f5f5; 
   border: 1px solid #e3e3e3; 
-  border-radius: 10px; 
+  border-radius: 12px; 
   overflow: hidden; 
-  box-shadow: 0 2px 4px rgba(0,0,0,.06);
+  box-shadow: 0 3px 8px rgba(0,0,0,.08);
+  aspect-ratio: 4 / 3;          /* taller on mobile for clarity */
+  min-height: 420px;            /* ensure generous height */
+  margin: 1.25rem 0 2rem;
 }
 .map-embed iframe { 
   position: absolute; 
@@ -61,7 +63,19 @@ a { transition: color .18s ease, background-color .18s ease; }
   height: 100%; 
   border: 0; 
 }
-@supports not (aspect-ratio: 16 / 9) {
-  .map-embed { padding-top: 56.25%; }
+@media (min-width: 800px) {
+  .map-embed { 
+    aspect-ratio: 16 / 10; 
+    min-height: 520px; 
+  }
+}
+@media (min-width: 1100px) {
+  .map-embed { 
+    aspect-ratio: 21 / 9; 
+    min-height: 600px; 
+  }
+}
+@supports not (aspect-ratio: 4 / 3) {
+  .map-embed { padding-top: 75%; }
   .map-embed iframe { height: 100%; }
 }
