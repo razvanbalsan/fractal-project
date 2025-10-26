@@ -1,4 +1,11 @@
 main:
-  - title: "Boatyardx"
-    url: https://boatyardx.com
-    target: _blank
+  - title: "Acasă"
+    url: /
+  - title: "Servicii"
+    url: /servicii/
+  - title: "Laptop"
+    url: /laptop/
+  - title: "Recuperare Date"
+    url: /recuperare-date/
+  - title: "Contact"
+    url: /contact/
