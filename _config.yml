@@ -20,22 +20,33 @@
 
 title: "Fractal IT - Service Laptop Cluj-Napoca"
 email: contact@fractal.ro
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   Cel mai prietenos service laptop din Cluj-Napoca. Reparații profesionale hardware și software,
   recuperare date, curățare laptop, instalare sisteme de operare și consultanță IT.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: ""
 url: "https://fractal.ro"
 phone: "0747-99.66.77"
 address: "Ilie Măcelaru 26, Cluj-Napoca"
 
-# Build settings
+# Build settings (Minimal Mistakes theme)
 theme: minimal-mistakes-jekyll
-minimal_mistakes_skin    : "neon"
-logo                     : /assets/images/fractal_logo.png
+minimal_mistakes_skin: "neon"
+logo: /assets/images/fractal_logo.png
 name: "Fractal IT"
-atom_feed:
-  hide: true
+locale: ro
+paginate: 5
+paginate_path: "blog/page:num"
+permalink: /:categories/:title/
+markdown: kramdown
+highlighter: rouge
+excerpt_separator: "<!--more-->"
 
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jemoji
+  - jekyll-include-cache
 # plugins:
   # - jekyll-feed
 
@@ -59,23 +70,20 @@ atom_feed:
 #   - vendor/gems/
 #   - vendor/ruby/
 defaults:
-  # _posts
-  - scope:
-      path: "_posts"
-      type: posts
-    values:
-      layout: single
-      read_time: false
-      comments: false
-      share: true
-      related: false
-  # _pages
   - scope:
       path: ""
       type: pages
     values:
-      layout: single
-      author_profile: false
+      layout: page
+      show_meta: false
+      comments: false
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      show_meta: true
+      comments: false
 
 # Reading Files
 include:
@@ -113,8 +121,7 @@ encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Set or override footer content:
-author:
-  name: "Fractal IT SRL"
+author: fractal
 
-footer:
-  content: "© Copyright 2011 - 2025 | FRACTAL IT SRL | All Rights Reserved | Ilie Măcelaru 26, Cluj-Napoca | 0747-99.66.77"
+footer: |
+  © Copyright 2011 - 2025 | FRACTAL IT SRL | All Rights Reserved | Ilie Măcelaru 26, Cluj-Napoca | 0747-99.66.77

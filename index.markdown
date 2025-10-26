@@ -1,11 +1,9 @@
 ---
-layout: default
+layout: single
 title: "Cel mai prietenos service laptop din Cluj-Napoca"
-subheadline: "Reparații Laptop | Recuperare Date | Consultanță IT"
-teaser: "Service profesionist laptop în Cluj-Napoca – diagnostic rapid, intervenții hardware și software, recuperare date și întreținere preventivă."
-header: no
-categories: [fractal-it]
-breadcrumb: true
+excerpt: "Service profesionist laptop în Cluj-Napoca – diagnostic rapid, intervenții hardware și software, recuperare date și întreținere preventivă."
+classes: wide
+sidebar: false
 ---
 
 ## Despre Fractal IT
