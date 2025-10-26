@@ -1,49 +1,49 @@
 ---
 layout: single
-title: "Cel mai prietenos service laptop din Cluj-Napoca"
-excerpt: "Service profesionist laptop în Cluj-Napoca – diagnostic rapid, intervenții hardware și software, recuperare date și întreținere preventivă."
+title: "Service Laptop & Recuperare Date în Cluj-Napoca"
+excerpt: "Diagnostic rapid. Evaluare fixă 50 lei. Reparații laptop, recuperare date, optimizare și consultanță IT."
 classes: wide
 sidebar: false
+feature_row:
+  - title: "Reparații Laptop"
+    excerpt: "Hardware, placă de bază, upgrade SSD, curățare, reballing."
+  - title: "Recuperare Date"
+    excerpt: "HDD, SSD, USB, RAID – proces sigur și confidențial."
+  - title: "Consultanță IT"
+    excerpt: "Optimizare infrastructură, achiziții, securitate, backup."
+  - title: "Instalare & Configurare"
+    excerpt: "Windows, Linux, migrare și optimizări post-instalare."
 ---
 
-## Despre Fractal IT
+### Fractal IT pe scurt
 
-Suntem **cel mai prietenos service laptop din Cluj-Napoca**, cu experiență de peste 14 ani în domeniul IT. Echipa noastră de experți oferă soluții complete pentru toate problemele dumneavoastră informatice.
+Servicii rapide și transparente pentru persoane fizice și companii. Ne concentrăm pe reparare, nu pe înlocuire prematură, iar evaluarea este întotdeauna clară: **50 lei** (scăzută din costul final dacă acceptați lucrarea).
 
-### 🔧 Service Profesional
+{% include feature_row %}
 
-Oferim servicii de reparații și configurare pentru laptop-uri. Efectuăm service pentru o gamă largă de defecte, de la probleme software până la reparații direct pe placa de bază, înlocuire de chip-uri (reballing) și înlocuire componente. 
+### Ce oferim în mod constant
 
-**Costul evaluării pentru orice aparat lăsat în service este de 50 lei.**
+- Diagnostic în maximum 24h (în majoritatea cazurilor)
+- Piese și intervenții profesionale (BGA/reballing, curățare avansată, upgrade SSD/RAM)
+- Recuperare date cu prioritate pe integritatea suportului original
+- Optimizare sisteme existente înainte de a recomanda achiziții noi
+- Consiliere tehnică neutră (fără vânzare agresivă)
 
-### 💡 Consultanță IT
+### Alte intervenții frecvente
 
-Echipa Fractal IT vă ajută să obțineți maxim din investiția IT, oferind suport în planificarea strategiei IT, prin optimizarea și maximizarea investiției în tehnologie.
+- Eliminare malware și hardening de bază
+- Remediere erori boot și sisteme care pornesc greu
+- Configurare și migrare profile utilizator / Office / email
+- Înlocuire carcase, balamale, tastaturi, baterii
+- Instalare Windows/Linux + drivere + tuning post-instalare
 
-## Serviciile Noastre Principale
+### Date de contact
 
-### Devirusare Profesională
-Chiar dacă pot apărea mai multe semne care să determine prezența unor viruși, singura modalitate prin care putem fi siguri este să scanăm complet calculatorul. Eliminăm rapid virusii și programele adiacente.
+📍 Ilie Măcelaru 26, Cluj-Napoca  
+📞 [0747-99.66.77](tel:0747996677)  
+✉️ [contact@fractal.ro](mailto:contact@fractal.ro)  
+🕒 Luni–Vineri 9:00–17:30 · Sâmbătă 9:00–13:00
 
-### Remediere Erori Hard Disk
-Reparăm hard disk-ul fără a fi nevoiți să-l înlocuim în cazul defectelor logice. Dacă identificăm defecte fizice pe suprafața platenelor, înlocuim hard disk-ul.
-
-### Înlocuire Componente Defecte
-Specializați în înlocuirea componentelor defecte ale laptop-urilor: hard disk, baterie, carcasă, balamale și multe altele.
-
-### Instalare Sisteme de Operare
-Instalăm sistemul de operare care vi se potrivește, fie el Microsoft Windows sau o distribuție de Linux (Ubuntu, Manjaro, etc.).
-
----
-
-## Contact Rapid
-
-📍 **Adresa:** Ilie Măcelaru 26, Cluj-Napoca  
-📞 **Telefon:** [0747-99.66.77](tel:0747996677)  
-✉️ **Email:** [contact@fractal.ro](mailto:contact@fractal.ro)
-
-**Orar:** Luni – Vineri 9:00 – 17:30 | Sâmbătă 9:00 – 13:00
-
-<div style="text-align: center; margin: 30px 0;">
-  <a href="/contact/" class="btn btn--primary btn--large">Contactează-ne acum</a>
+<div style="text-align:center; margin:2.5rem 0 1rem;">
+  <a href="/contact/" class="btn btn--primary">Trimite solicitare</a>
 </div>

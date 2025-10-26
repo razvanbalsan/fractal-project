@@ -1,0 +1,40 @@
+// Only the main Sass file needs front matter
+// Light clean skin import (set also in _config.yml)
+@import "minimal-mistakes/skins/air"; // skin
+@import "minimal-mistakes"; // main partials
+
+// Typography refinements
+.page__title {
+  font-size: clamp(1.9rem, 2.6vw, 2.3rem);
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.5px;
+  margin-top: .25rem;
+}
+
+h2 {
+  font-size: clamp(1.35rem, 2.1vw, 1.6rem);
+  font-weight: 600;
+  letter-spacing: -0.25px;
+}
+
+h3 {
+  font-size: clamp(1.15rem, 1.9vw, 1.35rem);
+  font-weight: 600;
+}
+
+// Subtle link hover refinement
+a { transition: color .18s ease, background-color .18s ease; }
+
+// Feature row spacing tweak
+.feature__wrapper { gap: 1.4rem; }
+.feature__item { border: 1px solid var(--border-color, #e5e5e5); border-radius: 8px; padding: 1.1rem 1.1rem 1rem; background: #fff; }
+.feature__item h3 { margin-top: 0; font-size: 1.05rem; }
+
+// Button refinement
+.btn { border-radius: 6px; }
+.btn--primary { box-shadow: 0 2px 4px rgba(0,0,0,.08); }
+.btn--primary:hover { box-shadow: 0 4px 10px rgba(0,0,0,.12); }
+
+// Reduce vertical space after first content block
+.page__content > h3:first-child { margin-top: .5rem; }

@@ -1,0 +1,2 @@
+---
+BUNDLE_SSL_CA_CERT_FILE: "/opt/homebrew/etc/ca-certificates/cert.pem"

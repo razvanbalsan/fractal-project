@@ -1,26 +1,26 @@
 # Copilot Instructions for Fractal IT Website
 
 ## Project Overview
-Acesta este un site profesional de servicii IT pentru Fractal IT SRL (service laptop, recuperare date și consultanță IT în Cluj-Napoca) construit cu Jekyll și tema remote **Feeling Responsive** (`remote_theme: Phlow/feeling-responsive`). Conținutul este 100% în limba română și structurat pe servicii principale (reparații, laptop, recuperare date, contact, despre).
+Acesta este un site profesional de servicii IT pentru Fractal IT SRL (service laptop, recuperare date și consultanță IT în Cluj-Napoca) construit cu Jekyll și tema **Minimal Mistakes** (gem `minimal-mistakes-jekyll`, skin `neon`). Conținutul este 100% în limba română și structurat pe servicii principale (reparații, laptop, recuperare date, contact, despre).
 
 ## Architecture & Key Components
 
 ### Config Jekyll (`_config.yml`)
-- Folosește `remote_theme: Phlow/feeling-responsive`
-- `language: 'ro'`, permalink pattern: `/:categories/:title/`
-- Paginare activă: `paginate: 5` în `blog/page:num`
-- Plugins cheie: `jekyll-remote-theme`, `jekyll-paginate`, `jekyll-sitemap`, `jekyll-gist`, `jemoji`, `jekyll-include-cache`
-- Metadate business (title, email, phone, address) plus descriere SEO în română
-- Layout-uri standard: `page` pentru pagini, `post` pentru articole
+- Theme: `minimal-mistakes-jekyll` (skin: `neon`)
+- `locale: ro`, permalink: `/:categories/:title/`
+- Paginare DEZACTIVATĂ momentan (nu există încă pagină blog). Pentru activare: adăugați `paginate` și `paginate_path` + creați pagină cu `layout: home`.
+- Plugins: `jekyll-paginate` (inactiv fără cheile paginate), `jekyll-sitemap`, `jekyll-gist`, `jemoji`, `jekyll-include-cache`
+- Metadate business (title, email, phone, address) + SEO description în română
+- Defaults: `pages -> layout: page`, `posts -> layout: post`
 
 ### Structură Conținut
-- `index.markdown` – landing principal (layout: `default` + subheadline/teaser)
-- `servicii.markdown` – listă servicii IT (toc activ)
-- `laptop.markdown` – reparații și întreținere laptop
+- `index.markdown` – landing principal (layout: `single`, conținut orientat servicii)
+- `servicii.markdown` – listă servicii IT (layout: `single` / structură H2/H3 pentru TOC automat dacă se activează plugin JS)
+- `laptop.markdown` – reparații și întreținere laptop (hardware + software)
 - `recuperare-date.markdown` – recuperare HDD/SSD/RAID/Flash
 - `contact.markdown` – formular mailto + detalii business + urgențe
-- `about.markdown` – descriere companie, experiență 14+ ani
-- `_posts/` – anunțuri și noutăți
+- `about.markdown` – descriere companie, experiență peste 14 ani
+- `_posts/` – noutăți (momentan un singur post activ). Fișiere *.bak NU trebuie păstrate.
 - `_data/navigation.yml` – meniul principal (Acasă, Servicii, Laptop, Recuperare Date, Contact)
 
 ### Key Features & Patterns
@@ -49,7 +49,7 @@ Local:
 bundle install
 bundle exec jekyll serve
 ```
-Notă: Dacă apare eroare SSL la `jekyll-remote-theme`, pe GitHub Actions build-ul trece. Soluții locale: actualizați certificatele sistemului sau vopsiți tema local (clonați repo în `_themes/` și eliminați `remote_theme`).
+Notă: Dependințe strict locale (fără remote theme) — nu mai există risc de erori SSL la fetch remote.
 
 Deploy (GitHub Pages + Actions):
 - Workflow: `.github/workflows/jekyl.yaml` (build + deploy)
@@ -60,9 +60,9 @@ Deploy (GitHub Pages + Actions):
 
 ### Dependențe (Gemfile)
 - Core: `jekyll`
-- Teme: remote via `jekyll-remote-theme` (nu există gem theme local)
-- Plugin-uri: `jekyll-remote-theme`, `jekyll-paginate`, `jekyll-sitemap`, `jekyll-gist`, `jemoji`, `jekyll-include-cache`
-- Eliminat: `minimal-mistakes-jekyll`, `jekyll-algolia` (nefolosit actualmente)
+- Theme: `minimal-mistakes-jekyll`
+- Plugins: `jekyll-paginate`, `jekyll-sitemap`, `jekyll-gist`, `jemoji`, `jekyll-include-cache` (se poate elimina `jekyll-paginate` dacă nu se folosește blog)
+- Eliminat: `jekyll-remote-theme`, `jekyll-algolia` (neutilizat)
 
 ## Project-Specific Conventions
 
@@ -81,10 +81,10 @@ Deploy (GitHub Pages + Actions):
 - Hours: "Luni – Vineri 9:00 – 17:30 | Sâmbătă 9:00 – 13:00"
 
 ### Pattern Layout Pagini
-- `layout: default` pentru homepage
-- `layout: page` pentru pagini statice
-- `layout: post` pentru articole
-- TOC manual prin structură heading (tema nu generează automat ca Minimal Mistakes)
+- Homepage: `layout: single` (marketing + CTA). Alternativ se poate folosi `layout: splash`.
+- Pagini statice: `layout: single` sau fallback la default (`page` din defaults) în funcție de nevoie.
+- Articole: `layout: post` (default prin `defaults`)
+- TOC: se poate activa per pagină cu `toc: true` + structură corectă heading (H2/H3)
 
 ### Prezentare Servicii
 - Tarif evaluare fix: 50 lei
@@ -102,4 +102,18 @@ Deploy (GitHub Pages + Actions):
 - Alt text for images in Romanian
 - Local business schema markup opportunities
 
-Focus: păstrați consistența brandului, corectitudinea termenilor tehnici în română, claritatea serviciilor și integritatea datelor de contact. Evitați reintroducerea elementelor specifice Minimal Mistakes.
+Focus: păstrați consistența brandului, corectitudinea termenilor tehnici în română, claritatea serviciilor și integritatea datelor de contact. Evitați reintroducerea configurărilor pentru teme remote inutile.
+
+## Note Operaționale
+1. Elimină fișiere CSS redundante: păstrează doar `assets/css/main.scss` (compilează în `main.css`). Nu păstra un `assets/css/main.css` sursă concomitent.
+2. Nu comite fișiere *.bak în `_posts/` – pot genera warnings.
+3. Pentru blog/paginare: creează `blog/index.md` cu `layout: home` și reactivează cheile paginate.
+4. Optimize SEO: asigură meta description concisă (<155 caractere) și alt text descriptiv imaginilor.
+5. Pentru CTA mai vizibile se pot folosi include-uri `feature_row` din Minimal Mistakes (adăugă secțiune YAML în front matter și `{% include feature_row %}`).
+
+## Extensii Posibile
+- Adaugă `jekyll-feed` dacă se dorește RSS.
+- Adaugă favicon + og:image în `/assets/images/` și configurează în `_includes/head/custom.html` (crează fișier dacă lipsește).
+- Schema.org LocalBusiness: include JSON-LD în același `custom.html`.
+
+Document actualizat pentru tema Minimal Mistakes (rollback de la Feeling Responsive) – mențineți această versiune sincronizată cu config-ul.

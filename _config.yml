@@ -30,12 +30,13 @@ address: "Ilie Măcelaru 26, Cluj-Napoca"
 
 # Build settings (Minimal Mistakes theme)
 theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "neon"
+minimal_mistakes_skin: "air" # switched from dark 'neon' to light 'air' for a modern clean look
 logo: /assets/images/fractal_logo.png
 name: "Fractal IT"
 locale: ro
-paginate: 5
-paginate_path: "blog/page:num"
+# Pagination dezactivată momentan (nu există pagină blog dedicată). Re-activați prin adăugarea cheilor
+# paginate: 5
+# paginate_path: "blog/page:num"
 permalink: /:categories/:title/
 markdown: kramdown
 highlighter: rouge
@@ -93,6 +94,7 @@ include:
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
+  - "*.bak"
   - vendor
   - .asset-cache
   - .bundle
@@ -101,6 +103,7 @@ exclude:
   - assets/js/plugins
   - assets/js/_main.js
   - assets/js/vendor
+  - assets/css/main.css
   - Capfile
   - CHANGELOG
   - config
