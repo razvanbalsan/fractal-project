@@ -1,12 +1,5 @@
-# Ignore the built static site
-_site/
-
-# Ignore local gems
-vendor/
-
-# Ignore Jekyll's cache and metadata
-.jekyll-cache/
-.jekyll-metadata
-
-# Ignore Bundler's local config
-.bundle/
+_site
+# .sass-cache
+# .jekyll-cache
+# .jekyll-metadata
+# vendor
