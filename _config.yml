@@ -30,7 +30,7 @@ address: "Ilie Măcelaru 26, Cluj-Napoca"
 
 # Build settings (Minimal Mistakes theme)
 theme: minimal-mistakes-jekyll
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 logo: /assets/images/sigla_226.png
 name: "Fractal IT"
 locale: ro
