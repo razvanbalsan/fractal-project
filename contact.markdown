@@ -11,7 +11,8 @@ excerpt: "Contactați Fractal IT pentru servicii profesionale de reparații lapt
 ## Informații de Contact
 
 ### 📍 **Adresă**
-**Ilie Măcelaru 26, Cluj-Napoca**
+**[Ilie Măcelaru 26, Cluj-Napoca](https://maps.google.com/maps?q=Ilie+Măcelaru+26,+Cluj-Napoca){:target="_blank" rel="noopener"}**  
+<small><a href="https://web.archive.org/web/20250611175710/https://maps.google.com/maps?saddr=" target="_blank" rel="noopener">Versiune arhivată</a></small>
 
 ### 📞 **Telefon**
 **[0747-99.66.77](tel:0747996677)**
@@ -59,3 +60,18 @@ Fiecare situație este unică - vă oferim soluții și prețuri adaptate nevoil
 Toate lucrările noastre vin cu garanție și sunt efectuate de specialiști cu experiență de peste 14 ani.
 
 *Fractal IT - Cel mai prietenos service laptop din Cluj-Napoca!*
+
+### 🗺️ Hartă (Google Maps) {#harta}
+
+<div class="map-embed">
+  <iframe
+    src="https://www.google.com/maps?q=Ilie+Măcelaru+26,+Cluj-Napoca&output=embed"
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+    allowfullscreen
+    title="Hartă Fractal IT"
+    decoding="async"
+    fetchpriority="low"></iframe>
+</div>
+
+<p style="font-size:.8rem;color:#666;">Dacă harta nu se încarcă puteți folosi <a href="https://maps.google.com/maps?q=Ilie+Măcelaru+26,+Cluj-Napoca" target="_blank" rel="noopener">linkul direct</a> sau <a href="https://web.archive.org/web/20250611175710/https://maps.google.com/maps?saddr=" target="_blank" rel="noopener">varianta arhivată</a>.</p>
