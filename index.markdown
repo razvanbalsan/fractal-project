@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Service Laptop în Cluj-Napoca"
-excerpt: "Diagnostic rapid. Evaluare fixă 50 lei. Reparații laptop, recuperare date, optimizare și consultanță IT."
+excerpt: "Diagnostic rapid. Reparații laptop, recuperare date, optimizare și consultanță IT."
 classes: wide
 sidebar: false
 feature_row:
@@ -19,7 +19,7 @@ feature_row:
 
 Cel mai prietenos service laptop din Cluj-Napoca. Oferim intervenții rapide, transparente și orientate spre reparare – nu înlocuire inutilă. Taxa de evaluare este fixă: **50 lei** (se scade din cost dacă accepți lucrarea).
 
-{% include feature_row %}
+<!-- {% include feature_row %} -->
 
 ### Servicii principale
 
