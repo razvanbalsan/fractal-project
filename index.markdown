@@ -41,7 +41,7 @@ Servicii rapide și transparente pentru persoane fizice și companii. Ne concent
 
 📍 Ilie Măcelaru 26, Cluj-Napoca  
 📞 [0747-99.66.77](tel:0747996677)  
-✉️ [contact@fractal.ro](mailto:contact@fractal.ro)  
+✉️ [office@fractal.ro](mailto:office@fractal.ro)  
 🕒 Luni–Vineri 9:00–17:30 · Sâmbătă 9:00–13:00
 
 <div style="text-align:center; margin:2.5rem 0 1rem;">

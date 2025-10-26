@@ -76,7 +76,7 @@ Deploy (GitHub Pages + Actions):
 - Company name: "Fractal IT SRL" 
 - Established: 2011 (reference "peste 14 ani de experiență")
 - Phone: "0747-99.66.77" (clickable tel: links)
-- Email: "contact@fractal.ro" 
+- Email: "office@fractal.ro" 
 - Address: "Ilie Măcelaru 26, Cluj-Napoca"
 - Hours: "Luni – Vineri 9:00 – 17:30 | Sâmbătă 9:00 – 13:00"
 

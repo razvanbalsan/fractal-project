@@ -57,7 +57,7 @@ Navigați prin secțiunile noastre pentru a găsi informațiile de care aveți n
 Nu ezitați să ne contactați pentru orice întrebare sau problemă IT:
 
 📞 **0747-99.66.77**  
-✉️ **contact@fractal.ro**  
+✉️ **office@fractal.ro**  
 📍 **Ilie Măcelaru 26, Cluj-Napoca**
 
 **Vă așteptăm cu drag la Fractal IT - cel mai prietenos service laptop din Cluj-Napoca!**

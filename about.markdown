@@ -89,7 +89,7 @@ Suntem situați în **Cluj-Napoca**, pe strada **Ilie Măcelaru numărul 26**, �
 ## Contactați-ne
 
 📞 **Telefon:** [0747-99.66.77](tel:0747996677)  
-✉️ **Email:** [contact@fractal.ro](mailto:contact@fractal.ro)  
+✉️ **Email:** [office@fractal.ro](mailto:office@fractal.ro)  
 📍 **Adresă:** Ilie Măcelaru 26, Cluj-Napoca
 
 ---

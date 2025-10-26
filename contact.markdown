@@ -17,7 +17,7 @@ excerpt: "Contactați Fractal IT pentru servicii profesionale de reparații lapt
 **[0747-99.66.77](tel:0747996677)**
 
 ### ✉️ **Email**
-**[contact@fractal.ro](mailto:contact@fractal.ro)**
+**[office@fractal.ro](mailto:office@fractal.ro)**
 
 ### 🕒 **Program de Lucru**
 - **Luni – Vineri:** 9:00 – 17:30
