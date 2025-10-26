@@ -34,8 +34,7 @@ theme: minimal-mistakes-jekyll
 minimal_mistakes_skin    : "neon"
 logo                     : /assets/images/byx_logo_mic.png
 name: "BYX Fund Raising"
-url: "https://charity.boatyardx.com"
-
+url: "https://fractal.ro"
 atom_feed:
   hide: true
 
