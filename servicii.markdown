@@ -1,14 +1,15 @@
 ---
 layout: single
-title: "Servicii IT Profesionale"
+title: "Servicii IT"
 permalink: /servicii/
 header:
   overlay_image: /assets/images/services-header.jpg
   overlay_filter: 0.5
-excerpt: "Servicii complete de reparații, întreținere și consultanță IT pentru particulari și companii din Cluj-Napoca."
+excerpt: "Reparații laptop, recuperare date, optimizare și consultanță IT în Cluj-Napoca."
 toc: true
 toc_label: "Servicii"
 toc_icon: "cog"
+classes: wide compact-head
 ---
 
 ## Devirusare Profesională a Sistemului de Operare
