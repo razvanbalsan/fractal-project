@@ -1,0 +1,40 @@
+# Cache Headers for GitHub Pages
+# Create this file as _headers in the root directory
+
+/*
+  Cache-Control: max-age=31536000, public, immutable
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+
+# HTML files - shorter cache for content updates
+/*.html
+  Cache-Control: max-age=86400, public
+
+# Images - long cache for static assets
+/*.jpg
+  Cache-Control: max-age=31536000, public, immutable
+/*.jpeg  
+  Cache-Control: max-age=31536000, public, immutable
+/*.png
+  Cache-Control: max-age=31536000, public, immutable
+/*.webp
+  Cache-Control: max-age=31536000, public, immutable
+/*.gif
+  Cache-Control: max-age=31536000, public, immutable
+/*.svg
+  Cache-Control: max-age=31536000, public, immutable
+
+# CSS and JS files
+/*.css
+  Cache-Control: max-age=31536000, public, immutable
+/*.js
+  Cache-Control: max-age=31536000, public, immutable
+
+# Fonts
+/*.woff
+  Cache-Control: max-age=31536000, public, immutable
+/*.woff2  
+  Cache-Control: max-age=31536000, public, immutable
+
+# XML files
+/*.xml
+  Cache-Control: max-age=86400, public

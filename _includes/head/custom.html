@@ -1,8 +1,32 @@
+<!-- Performance optimizations: Preconnect to external resources -->
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="dns-prefetch" href="https://static.cloudflareinsights.com">
+
+<!-- Preload LCP image for better performance -->
+<link rel="preload" as="image" href="/assets/images/homepage-repair-header.jpg" fetchpriority="high">
+
+<!-- Font optimization with font-display: swap -->
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css"></noscript>
+
+<!-- Critical CSS inline for better performance -->
+<style>
+/* Critical above-the-fold CSS */
+.masthead{position:relative;border-bottom:1px solid #e5e5e5;background:#fff;z-index:20}
+.site-title{display:flex;align-self:center;font-weight:bold;text-decoration:none}
+.site-logo img{max-height:2rem;width:80px;height:32px;object-fit:contain}
+.page__hero--overlay{position:relative;margin-bottom:2em;padding:3em 0;background-size:cover;background-repeat:no-repeat;background-position:center}
+.btn{display:inline-block;margin-bottom:.25em;padding:.5em 1em;font-size:.75em;font-weight:bold;text-align:center;text-decoration:none;border:0;border-radius:6px;cursor:pointer;transition:all .2s ease-in-out}
+.btn--primary{background-color:#2c5282;color:#fff;box-shadow:0 2px 4px rgba(0,0,0,.08)}
+.btn--primary:hover{background-color:#1a365d;box-shadow:0 4px 10px rgba(0,0,0,.12)}
+.btn--large{padding:.75em 1.25em;font-size:.875em}
+</style>
+
 <!-- Favicon & PWA basic icons -->
 <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.png">
 <link rel="alternate icon" href="/assets/images/sigla_226.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/sigla_226.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/sigla_226.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/sigla_226.png" width="32" height="32">
 <meta name="theme-color" content="#4d6bff">
 
 <!-- Custom head additions: LocalBusiness Schema.org JSON-LD -->
