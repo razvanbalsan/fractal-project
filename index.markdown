@@ -1,9 +1,9 @@
 ---
 layout: single
 title: "Service Laptop Cluj-Napoca"
-seo_title: "Reparații Laptop & Placă Bază Cluj | Fractal IT"
-description: "Reparații laptop & electronică placă: diagnoză circuite alimentare, reballing BGA, înlocuire SMD, curățare termică, optimizare software și consultanță IT în Cluj-Napoca."
-excerpt: "Reparații laptop & electronică placă: diagnoză, reballing, optimizare, consultanță IT."
+seo_title: "Reparații Laptop & Placă de Bază Cluj-Napoca | Fractal IT"
+description: "Reparații laptop și placă de bază: diagnoză circuite alimentare, reballing BGA, înlocuire componente SMD, curățare termică, optimizare software și consultanță IT în Cluj-Napoca."
+excerpt: "Reparații laptop & placă de bază: diagnoză, reballing, optimizare, consultanță IT."
 permalink: /
 header:
   overlay_image: /assets/images/homepage-repair-header.jpg
@@ -40,7 +40,7 @@ Curățare internă (radiator, ventilator, pastă & paduri termice), prevenție 
 ### 3. Consultanță
 Te ajutăm să alegi echipamente potrivite, să optimizezi costuri, să planifici upgrade‑uri și politici de backup. Recomandări neutre – fără interes comercial ascuns.
 
-## Reparații Electronică Plăci (Board-Level)
+## Reparații Electronice Placă de Bază (Board-Level)
 Diagnosticăm și remediem defecte la nivel de placă de bază: circuite alimentare (buck / boost), scurt pe magistrale, linii de date corupte, BGA cu contacte reci, componente SMD arse (MOSFET, driver, controler încărcare). Folosim metodologii de măsurare rezistență pe rail, injecție curent controlată, microscop și rework cu profil termic calibrat. Obiectiv: recuperarea funcționalității fără înlocuire completă de placă.
 
 ### Proceduri Tipice
@@ -49,6 +49,7 @@ Diagnosticăm și remediem defecte la nivel de placă de bază: circuite aliment
 - Înlocuire conectori deteriorați și refacere trasee
 - Reprogramare BIOS / EC (firmware corupt)
 - Validare termică și stabilitate după intervenție
+ - Înlocuire componente SMD (MOSFET, regulatori, controlere, fusibile)
 
 ### Recuperare Date (Serviciu Complementar)
 Disponibil la cerere, dar focusul principal este prelungirea vieții hardware prin reparații electronice. Dacă este necesar intervenim non‑intrusiv (imaging) pentru a proteja suportul.
