@@ -72,7 +72,7 @@ Pentru modele de gaming putem aplica soluții termice premium (ex. Thermal Grizz
 📍 Ilie Măcelaru 26, Cluj-Napoca ([hartă](/contact/#harta))  
 📞 [0747-99.66.77](tel:0747996677)  
 ✉️ [office@fractal.ro](mailto:office@fractal.ro)  
-🕒 Luni–Vineri 9:00–17:30 · Sâmbătă Închis
+🕒 Luni–Vineri 8:30–17:00 · Sâmbătă Închis
 
 <div style="text-align: center; margin: 30px 0; padding: 20px; background: #f8f9fa; border-radius: 10px;">
   <h3>Ai nevoie de ajutor?</h3>

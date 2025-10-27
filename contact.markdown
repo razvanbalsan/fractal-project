@@ -21,7 +21,7 @@ excerpt: "Contactați Fractal IT pentru servicii profesionale de reparații lapt
 **[office@fractal.ro](mailto:office@fractal.ro)**
 
 ### 🕒 **Program de Lucru**
-- **Luni – Vineri:** 9:00 – 17:30
+- **Luni – Vineri:** 8:30 - 17:00
 - **Sâmbătă:** Închis
 - **Duminică:** Închis
 

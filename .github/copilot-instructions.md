@@ -78,7 +78,7 @@ Deploy (GitHub Pages + Actions):
 - Phone: "0747-99.66.77" (clickable tel: links)
 - Email: "office@fractal.ro" 
 - Address: "Ilie Măcelaru 26, Cluj-Napoca"
-- Hours: "Luni – Vineri 9:00 – 17:30 | Sâmbătă Închis"
+- Hours: "Luni – Vineri 8:30 - 17:00 | Sâmbătă Închis"
 
 ### Pattern Layout Pagini
 - Homepage: `layout: single` (marketing + CTA). Alternativ se poate folosi `layout: splash`.
