@@ -15,8 +15,7 @@ Bun venit pe noul nostru site web! După peste 14 ani de experiență în domeni
 ### Ce găsiți pe noul nostru site?
 
 #### 🔧 **Informații Complete despre Servicii**
-- Detalii despre toate tipurile de reparații laptop
-- Informații despre procesul de recuperare date
+- Detalii despre reparații laptop și intervenții la nivel de placă (electronică)
 - Explicații despre serviciile de curățare și întreținere
 - Descrieri ale serviciilor de consultanță IT
 
@@ -48,7 +47,7 @@ Navigați prin secțiunile noastre pentru a găsi informațiile de care aveți n
 
 - **[Servicii](/servicii/)** - Toate serviciile noastre IT
 - **[Laptop](/laptop/)** - Specializat pe reparații laptop
-- **[Recuperare Date](/recuperare-date/)** - Soluții pentru date pierdute
+- (Opțional) **[Recuperare Date](/recuperare-date/)** - Serviciu complementar la cerere
 - **[Contact](/contact/)** - Toate modalitățile de contact
 - **[Despre Noi](/about/)** - Povestea Fractal IT
 

@@ -5,7 +5,7 @@ permalink: /servicii/
 header:
   overlay_image: /assets/images/services-header.jpg
   overlay_filter: 0.5
-excerpt: "Reparații laptop, recuperare date, optimizare și consultanță IT în Cluj-Napoca."
+excerpt: "Reparații laptop și electronică plăci (diagnoză, reballing, SMD), optimizare și consultanță IT în Cluj-Napoca."
 toc: true
 toc_label: "Servicii"
 toc_icon: "cog"
@@ -44,11 +44,24 @@ Indiferent de problema cu care vă confruntați, suntem aici să vă ajutăm să
 - Programe și utilitare pentru utilizarea zilnică (web browser, antivirus, video player, etc.)
 - Configurarea setărilor și a serviciilor pentru funcționare la capacitate maximă
 
-## Recuperare Date HDD
+## Reparații la Nivel de Placă (Board-Level)
 
-Efectuăm recuperări de date de pe orice suport de stocare, fie el hard disk, memorie flash USB, card SD, SSD sau configurație RAID.
+Diagnosticăm și remediem defecte electronice pe plăci de bază laptop: scurt pe linii de alimentare, MOSFET ars, controller încărcare defect, chipset cu contacte reci, conector alimentare deteriorat, trasee întrerupte. Folosim echipamente de rework BGA, analiză termică și metodologii de injecție curent pentru localizarea scurturilor.
 
-Scopul nostru este de a oferi soluții de recuperare de date fiabile, rapide, la prețuri accesibile. Echipa noastră de înaltă calificare împreună cu partenerii noștri vă oferă resurse superioare pentru a obține fișierele înapoi după un „dezastru".
+### Ce Facem
+- Măsurare rezistențe și analiză railuri (VIN, VCORE, 3V/5V, GPU)
+- Reballing / reflow controlat (profil termic calibrat)
+- Reprogramare BIOS / embedded controller
+- Înlocuire componente SMD (driveri, MOSFET, regulator, fusibile)
+- Refacere paduri și micro‑trasee afectate
+
+### Beneficii
+- Cost mai mic față de înlocuirea completă a plăcii
+- Extinderea duratei de viață a echipamentului existent
+- Păstrarea configurațiilor și licențelor software existente
+
+### Recuperare Date (Complementar)
+Serviciul există la cerere, însă focusul principal este menținerea hardware‑ului funcțional. Intervenim pe stocare numai prin metode non‑intrusive (imaging) când este necesar.
 
 ## Instalare Sistem de Operare
 

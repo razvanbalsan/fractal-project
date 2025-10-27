@@ -1,7 +1,9 @@
 ---
 layout: single
 title: "Service Laptop Cluj-Napoca"
-excerpt: "Diagnostic rapid. Reparații laptop, recuperare date, optimizare și consultanță IT."
+seo_title: "Reparații Laptop & Placă Bază Cluj | Fractal IT"
+description: "Reparații laptop & electronică placă: diagnoză circuite alimentare, reballing BGA, înlocuire SMD, curățare termică, optimizare software și consultanță IT în Cluj-Napoca."
+excerpt: "Reparații laptop & electronică placă: diagnoză, reballing, optimizare, consultanță IT."
 permalink: /
 header:
   overlay_image: /assets/images/homepage-repair-header.jpg
@@ -16,7 +18,14 @@ share: true
 
 ## Despre
 
-Cel mai prietenos service laptop din Cluj-Napoca. Oferim intervenții rapide, transparente și orientate spre reparare – nu înlocuire inutilă. Taxa de evaluare este fixă: **50 lei** (se scade din cost dacă accepți lucrarea).
+Cel mai prietenos service laptop din Cluj-Napoca. Oferim intervenții rapide și reparații electronice pe placă de bază (diagnostic rail alimentare, reballing BGA, înlocuire componente SMD, reprogramare BIOS/EC), transparente și orientate spre reparare – nu înlocuire inutilă. Taxa de evaluare este fixă: **50 lei** (se scade din cost dacă accepți lucrarea).
+
+### Simptome frecvente pentru reparații placa de bază
+- Pornire doar cu încărcător sau doar cu baterie
+- Consum anormal (scurt pe 3V/5V / VCORE)
+- Ventilator pulsează, fără imagine
+- Throttling sever după câteva minute
+- Oprire bruscă la încărcare (circuit încărcare defect)
 
 <!-- {% include feature_row %} -->
 
@@ -31,8 +40,18 @@ Curățare internă (radiator, ventilator, pastă & paduri termice), prevenție 
 ### 3. Consultanță
 Te ajutăm să alegi echipamente potrivite, să optimizezi costuri, să planifici upgrade‑uri și politici de backup. Recomandări neutre – fără interes comercial ascuns.
 
-## Recuperare Date
-Recuperăm date de pe HDD, SSD, stick USB, card SD și array-uri RAID, cu prioritate absolută pe integritatea suportului original. Situații adresate: fișiere șterse, partiții corupte, sectoare instabile, firmware defect, controler degradat. Soluțiile sunt confidențiale și orientate pe obținerea maximului de date utile.
+## Reparații Electronică Plăci (Board-Level)
+Diagnosticăm și remediem defecte la nivel de placă de bază: circuite alimentare (buck / boost), scurt pe magistrale, linii de date corupte, BGA cu contacte reci, componente SMD arse (MOSFET, driver, controler încărcare). Folosim metodologii de măsurare rezistență pe rail, injecție curent controlată, microscop și rework cu profil termic calibrat. Obiectiv: recuperarea funcționalității fără înlocuire completă de placă.
+
+### Proceduri Tipice
+- Izolare scurt și identificare componentă defectă
+- Reballing / reflow controlat BGA (GPU, PCH, chipset-uri auxiliare)
+- Înlocuire conectori deteriorați și refacere trasee
+- Reprogramare BIOS / EC (firmware corupt)
+- Validare termică și stabilitate după intervenție
+
+### Recuperare Date (Serviciu Complementar)
+Disponibil la cerere, dar focusul principal este prelungirea vieții hardware prin reparații electronice. Dacă este necesar intervenim non‑intrusiv (imaging) pentru a proteja suportul.
 
 ## Curățare Profesională Laptop – Pași
 1. Demontare și curățare placă de bază & module
@@ -75,7 +94,7 @@ Pentru modele de gaming putem aplica soluții termice premium (ex. Thermal Grizz
 3. Diagnostic software (loguri sistem, evenimente, sănătate SSD/HDD, încărcare procese, securitate de bază).
 4. Formulare ofertă: cauză probabilă, soluție propusă, interval de cost și termen estimat.
 5. Confirmare client (nu continuăm fără acord explicit – transparență totală).
-6. Execuție intervenție / recuperare date / procedură curățare.
+6. Execuție intervenție (reparație board / curățare / operațiuni stocare dacă sunt necesare).
 7. Test final: stres termic, test stabilitate, verificare zgomot, integritate date.
 8. Predare + recomandări de prevenție personalizate.
 
@@ -86,7 +105,7 @@ Pentru modele de gaming putem aplica soluții termice premium (ex. Thermal Grizz
 - Garanție standard: 90 zile pentru manoperă (sau conform specificului componentei înlocuite, dacă producătorul oferă diferit).
 - Nicio taxă ascunsă: taxa de evaluare (50 lei) se scade integral dacă se acceptă reparația.
 - Nu lucrăm cu piese de proveniență incertă – preferăm piese OEM sau calitate echivalentă verificată.
-- Recuperare date: operăm strict pe copii «imaging» unde este posibil, pentru a nu degrada suplimentar suportul original.
+- Operațiuni pe stocare numai prin «imaging» unde este posibil pentru a evita degradarea mediului original.
 - Confidențialitate: nu accesăm voluntar fișiere personale (aplicăm politici de minimizare a expunerii datelor).
 
 Pentru drepturile consumatorului puteți consulta și Autoritatea Națională pentru Protecția Consumatorilor (ANPC): [https://anpc.ro](https://anpc.ro){:target="_blank" rel="noopener"}.
@@ -113,7 +132,7 @@ Pentru drepturile consumatorului puteți consulta și Autoritatea Națională pe
 
 ## Securitate & Protecția Datelor
 
-Implementăm bune practici de securitate minimă la solicitare: activare BitLocker / LUKS, segmentare cont utilizator, politici backup diferențial. În caz de recuperare date, fluxul este documentat iar suporturile temporare sunt șterse (wipe logic) la predare. «Service Laptop Cluj-Napoca» nu înseamnă doar reparație rapidă – ci și protejarea informațiilor sensibile care susțin activitatea clientului.
+Implementăm bune practici de securitate minimă la solicitare: activare BitLocker / LUKS, segmentare cont utilizator, politici backup diferențial. Dacă sunt necesare operațiuni pe suportul de stocare fluxul este documentat iar mediile temporare sunt șterse (wipe logic) la predare. «Service Laptop Cluj-Napoca» înseamnă reparație electronică riguroasă + protejarea informațiilor sensibile.
 
 ---
 
@@ -121,7 +140,7 @@ Implementăm bune practici de securitate minimă la solicitare: activare BitLock
 
 📍 Ilie Măcelaru 26, Cluj-Napoca ([hartă](/contact/#harta))  
 📞 [0747-99.66.77](tel:0747996677)  
-✉️ [office@fractal.ro](mailto:office@fractal.ro)  
+✉️ <span id="email-obf" data-u="office" data-d="fractal.ro">[activare JavaScript]</span>  
 🕒 Luni–Vineri 8:30–17:00 · Sâmbătă Închis
 
 <div style="text-align: center; margin: 30px 0; padding: 20px; background: #f8f9fa; border-radius: 10px;">
@@ -129,3 +148,8 @@ Implementăm bune practici de securitate minimă la solicitare: activare BitLock
   <p>Scrie-ne sau adu laptopul pentru evaluare. <br>Cost evaluare: <strong>50 lei</strong> (scăzut din lucrare dacă se acceptă intervenția).</p>
   <a href="/contact/" class="btn btn--primary btn--large">Trimite solicitare</a>
 </div>
+
+<script>
+  (function(){var el=document.getElementById('email-obf');if(!el)return;var u=el.getAttribute('data-u'),d=el.getAttribute('data-d'),e=u+'@'+d;el.innerHTML='<a href="mailto:'+e+'">'+e+'</a>';})();
+</script>
+<noscript>Email: office [at] fractal [dot] ro</noscript>

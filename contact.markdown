@@ -5,7 +5,7 @@ permalink: /contact/
 header:
   overlay_image: /assets/images/contact-header.jpg
   overlay_filter: 0.5
-excerpt: "Contactați Fractal IT pentru servicii profesionale de reparații laptop, recuperare date și consultanță IT în Cluj-Napoca."
+excerpt: "Contactați Fractal IT pentru reparații electronică plăci, service laptop și consultanță IT în Cluj-Napoca."
 ---
 
 ## Informații de Contact

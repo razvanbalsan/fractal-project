@@ -40,16 +40,20 @@ Oferim prețuri transparente, garanții reale și comunicăm deschis despre toat
 ## Serviciile Noastre Principale
 
 ### 🔧 **Reparații Hardware și Software**
-- Reparații plăci de bază (reballing, rework)
+- Reparații plăci de bază (diagnoză electronică, reballing, rework)
 - Înlocuire componente (ecrane, tastaturi, baterii)
 - Instalări și configurări sisteme de operare
 - Devirusare și optimizare
 
-### 💾 **Recuperare Date**
-- HDD și SSD deteriorate
-- Memorii flash și carduri SD
-- Sisteme RAID complexe
-- Recuperări de urgență
+### � **Reparații Electronică Plăci**
+- Diagnostic railuri alimentare (3V/5V, VCORE, GPU)
+- Localizare scurt (injecție curent, analiză termică)
+- Reballing / reflow BGA controlat
+- Înlocuire componente SMD (MOSFET, controlere, fusibile)
+
+### 💾 **Recuperare Date (Complementar)**
+- Disponibilă la cerere; prioritatea noastră rămâne prelungirea vieții hardware.
+- Intervenim non-intrusiv (imaging) când suportul permite.
 
 ### 🧹 **Întreținere Preventivă**
 - Curățare profesională internă
