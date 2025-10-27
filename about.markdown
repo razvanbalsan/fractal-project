@@ -2,6 +2,10 @@
 layout: single
 title: "Despre Fractal IT - Cel Mai Prietenos Service Laptop din Cluj-Napoca"
 permalink: /about/
+sitemap:
+  priority: 0.6
+  changefreq: yearly
+  lastmod_use_date: true
 header:
   overlay_image: /assets/images/about-header.jpg
   overlay_filter: 0.5

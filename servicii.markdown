@@ -2,6 +2,10 @@
 layout: single
 title: "Servicii IT"
 permalink: /servicii/
+sitemap:
+  priority: 0.9
+  changefreq: monthly
+  lastmod_use_date: true
 header:
   overlay_image: /assets/images/services-header.jpg
   overlay_filter: 0.5

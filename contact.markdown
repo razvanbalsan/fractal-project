@@ -2,6 +2,10 @@
 layout: single
 title: "Contact - Sunt Multe Feluri în Care Puteți Lua Legătura cu Noi"
 permalink: /contact/
+sitemap:
+  priority: 0.8
+  changefreq: monthly
+  lastmod_use_date: true
 header:
   overlay_image: /assets/images/contact-header.jpg
   overlay_filter: 0.5

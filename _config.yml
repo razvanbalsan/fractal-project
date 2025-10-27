@@ -44,7 +44,6 @@ excerpt_separator: "<!--more-->"
 
 plugins:
   - jekyll-paginate
-  - jekyll-sitemap
   - jekyll-gist
   - jemoji
   - jekyll-include-cache

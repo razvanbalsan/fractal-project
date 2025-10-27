@@ -2,6 +2,10 @@
 layout: single
 title: "Reparații Laptop - Software și Hardware"
 permalink: /laptop/
+sitemap:
+  priority: 0.9
+  changefreq: monthly
+  lastmod_use_date: true
 header:
   overlay_image: /assets/images/laptop-repair-header.jpg
   overlay_filter: 0.5

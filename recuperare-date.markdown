@@ -2,6 +2,10 @@
 layout: single
 title: "Recuperare Date - Unele Amintiri Nu Merită Pierdute"
 permalink: /recuperare-date/
+sitemap:
+  priority: 0.9
+  changefreq: monthly
+  lastmod_use_date: true
 header:
   overlay_image: /assets/images/data-recovery-header.jpg
   overlay_filter: 0.5

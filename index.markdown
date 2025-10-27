@@ -5,6 +5,10 @@ seo_title: "Reparații Laptop & Placă de Bază Cluj-Napoca | Fractal IT"
 description: "Reparații laptop și placă de bază: diagnoză circuite alimentare, reballing BGA, înlocuire componente SMD, curățare termică, optimizare software și consultanță IT în Cluj-Napoca."
 excerpt: "Reparații laptop & placă de bază: diagnoză, reballing, optimizare, consultanță IT."
 permalink: /
+sitemap:
+  priority: 1.0
+  changefreq: weekly
+  lastmod_use_date: true
 header:
   overlay_image: /assets/images/homepage-repair-header.jpg
   overlay_filter: 0.5
@@ -13,7 +17,7 @@ toc_label: "Cuprins"
 toc_icon: "list"
 classes: wide compact-head
 sidebar: false
-share: true
+share: false
 ---
 
 ## Despre
