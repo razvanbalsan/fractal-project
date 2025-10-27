@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Service Laptop în Cluj-Napoca"
+title: "Service Laptop Cluj-Napoca"
 excerpt: "Diagnostic rapid. Reparații laptop, recuperare date, optimizare și consultanță IT."
 permalink: /
 header:
@@ -11,6 +11,7 @@ toc_label: "Cuprins"
 toc_icon: "list"
 classes: wide compact-head
 sidebar: false
+share: true
 ---
 
 ## Despre
@@ -64,6 +65,55 @@ Pentru modele de gaming putem aplica soluții termice premium (ex. Thermal Grizz
 - Confidențialitate și grijă pentru datele sensibile
 - Piese și consumabile de calitate
 - Recomandări oneste – nu vindem ce nu ai nevoie
+
+---
+
+## Proces de Diagnostic & Flux de Lucru
+
+1. Preluare și discuție inițială privind simptomul (context, istoric intervenții anterioare, mediu de utilizare).
+2. Diagnostic hardware (inspecție vizuală, alimentare, temperaturi, test memorie, stocare, VRM, integritate conectori).
+3. Diagnostic software (loguri sistem, evenimente, sănătate SSD/HDD, încărcare procese, securitate de bază).
+4. Formulare ofertă: cauză probabilă, soluție propusă, interval de cost și termen estimat.
+5. Confirmare client (nu continuăm fără acord explicit – transparență totală).
+6. Execuție intervenție / recuperare date / procedură curățare.
+7. Test final: stres termic, test stabilitate, verificare zgomot, integritate date.
+8. Predare + recomandări de prevenție personalizate.
+
+> Obiectivul nostru este maximizarea duratei de viață a echipamentului existent – înlocuirea se recomandă doar când raportul cost/beneficiu devine nefavorabil reparației.
+
+## Politici & Garanție
+
+- Garanție standard: 90 zile pentru manoperă (sau conform specificului componentei înlocuite, dacă producătorul oferă diferit).
+- Nicio taxă ascunsă: taxa de evaluare (50 lei) se scade integral dacă se acceptă reparația.
+- Nu lucrăm cu piese de proveniență incertă – preferăm piese OEM sau calitate echivalentă verificată.
+- Recuperare date: operăm strict pe copii «imaging» unde este posibil, pentru a nu degrada suplimentar suportul original.
+- Confidențialitate: nu accesăm voluntar fișiere personale (aplicăm politici de minimizare a expunerii datelor).
+
+Pentru drepturile consumatorului puteți consulta și Autoritatea Națională pentru Protecția Consumatorilor (ANPC): [https://anpc.ro](https://anpc.ro){:target="_blank" rel="noopener"}.
+
+## FAQ Service Laptop (Întrebări Frecvente)
+
+**Cât durează diagnosticul?**  În majoritatea cazurilor < 24h; pentru probleme intermitente hardware poate dura suplimentar testarea extinsă.
+
+**Pierdeți datele în timpul reinstalării?**  Nu – efectuăm backup selectiv înainte și cerem confirmare expresă pentru ștergeri.
+
+**Merită reballing-ul?**  Doar dacă restul parametrilor (temperaturi, alimentare, stare PCB) sunt în limite și costul e sub ~40–45% din valoarea de înlocuire.
+
+**Pot continua să folosesc laptopul supraîncălzit?**  Risc crescut de deteriorare GPU/VRM și degradare prematură SSD – recomandăm curățare preventivă.
+
+**Recuperați date de pe SSD cu firmware corupt?**  Caz – caz: uneori prin adaptare controler / transplant NAND; evaluare inițială fără angajament.
+
+## Recomandări Întreținere Preventivă
+
+- Curățare internă și schimb pastă termică la 12–18 luni (mai des pentru gaming / sarcini continue).
+- Monitorizare temperaturi (utilitate open-source; alertă > 90°C susținut CPU / > 80°C GPU).
+- Backup 3-2-1 (3 copii, 2 medii, 1 off‑site) – reduce costul unei recuperări complexe.
+- Evitare blocare orificii ventilație (suport ridicare / pad răcire dacă sarcini lungi).
+- Actualizări firmware BIOS doar când remediează un defect concret (principiul risc controlat).
+
+## Securitate & Protecția Datelor
+
+Implementăm bune practici de securitate minimă la solicitare: activare BitLocker / LUKS, segmentare cont utilizator, politici backup diferențial. În caz de recuperare date, fluxul este documentat iar suporturile temporare sunt șterse (wipe logic) la predare. «Service Laptop Cluj-Napoca» nu înseamnă doar reparație rapidă – ci și protejarea informațiilor sensibile care susțin activitatea clientului.
 
 ---
 
