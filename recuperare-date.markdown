@@ -2,6 +2,7 @@
 layout: single
 title: "Recuperare Date - Unele Amintiri Nu Merită Pierdute"
 permalink: /recuperare-date/
+description: "Recuperare date Cluj-Napoca: HDD, SSD, memorii flash și RAID. Servicii profesionale cu rata mare de succes."
 sitemap:
   priority: 0.9
   changefreq: monthly
@@ -13,6 +14,7 @@ excerpt: "Servicii profesionale de recuperare date pentru HDD, SSD, memorii flas
 toc: true
 toc_label: "Tipuri Recuperare"
 toc_icon: "hdd-o"
+share: true
 ---
 
 ## Recuperarea Datelor Pierdute sau Deteriorate

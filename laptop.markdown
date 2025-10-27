@@ -2,6 +2,7 @@
 layout: single
 title: "Reparații Laptop - Software și Hardware"
 permalink: /laptop/
+description: "Reparații laptop Cluj-Napoca: hardware, software, curățare termică și optimizare. Service profesional pentru toate mărcile."
 sitemap:
   priority: 0.9
   changefreq: monthly
@@ -13,6 +14,7 @@ excerpt: "Reparații software și hardware la cel mai înalt nivel pentru orice 
 toc: true
 toc_label: "Servicii Laptop"
 toc_icon: "laptop"
+share: true
 ---
 
 ## Siguranța și Fiabilitatea Laptop-ului Dumneavoastră

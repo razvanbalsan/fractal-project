@@ -2,6 +2,7 @@
 layout: single
 title: "Servicii IT"
 permalink: /servicii/
+description: "Servicii IT Cluj-Napoca: devirusare, optimizare Windows, backup-uri și consultanță tehnică. Soluții complete pentru nevoi IT."
 sitemap:
   priority: 0.9
   changefreq: monthly
@@ -14,6 +15,7 @@ toc: true
 toc_label: "Servicii"
 toc_icon: "cog"
 classes: wide compact-head
+share: true
 ---
 
 ## Devirusare Profesională a Sistemului de Operare
@@ -80,7 +82,7 @@ Pentru mai multe detalii despre prețurile licențelor vă rugăm să ne contact
 ### 1. Service Profesional
 Vă oferim servicii de reparații și configurare pentru laptop-uri. Efectuăm service pentru o gamă largă de defecte, de la probleme software până la reparații direct pe placa de bază, înlocuire de chip-uri (reballing) și înlocuire componente. 
 
-**Costul evaluării pentru orice aparat lăsat în service este de 50 lei.**
+Costul evaluării pentru orice aparat lăsat în service este de **50 RON**.
 
 ### 2. Întreținere Completă
 Echipa noastră asigură servicii complete de optimizare și întreținere a laptop-urilor, calculatoarelor și a altor echipamente informatice precum și a rețelei informatice pe bază de abonament lunar sau contract de colaborare. 

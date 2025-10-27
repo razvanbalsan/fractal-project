@@ -22,7 +22,7 @@ title: "Fractal IT"
 email: office@fractal.ro
 tagline: "Service Laptop Cluj-Napoca"
 description: >-
-  Service laptop în Cluj-Napoca: reparații electronică plăci (diagnoză circuite alimentare, reballing BGA, înlocuire componente SMD), reparații hardware & software, curățare profesională și consultanță IT.
+  Service laptop Cluj-Napoca: reparații hardware, reballing BGA, recuperare date și consultanță IT. Fractal IT - experți în tehnologie.
 baseurl: ""
 url: "https://fractal.ro"
 phone: "0747-99.66.77"
@@ -121,6 +121,18 @@ keep_files:
   - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Social sharing (exclude broken platforms)
+social:
+  type: Organization
+  name: "Fractal IT SRL"
+  links:
+    - "https://fractal.ro"
+
+# Social sharing configuration
+social_share:
+  - facebook
+  - email
 
 # Set or override footer content:
 author: fractal

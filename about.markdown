@@ -2,6 +2,7 @@
 layout: single
 title: "Despre Fractal IT - Cel Mai Prietenos Service Laptop din Cluj-Napoca"
 permalink: /about/
+description: "Fractal IT Cluj-Napoca: peste 14 ani experiență în service laptop și IT. Echipă profesională, soluții personalizate."
 sitemap:
   priority: 0.6
   changefreq: yearly
@@ -96,8 +97,8 @@ Suntem situați în **Cluj-Napoca**, pe strada **Ilie Măcelaru numărul 26**, �
 
 ## Contactați-ne
 
-📞 **Telefon:** [0747-99.66.77](tel:0747996677)  
-✉️ **Email:** [office@fractal.ro](mailto:office@fractal.ro)  
+📞 **Telefon:** [Contactează-ne: 0747-99.66.77](tel:0747996677)  
+✉️ **Email:** [Scrie-ne: office@fractal.ro](mailto:office@fractal.ro)  
 📍 **Adresă:** Ilie Măcelaru 26, Cluj-Napoca
 
 ---

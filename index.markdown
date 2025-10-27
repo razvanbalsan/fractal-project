@@ -2,7 +2,7 @@
 layout: single
 title: "Service Laptop Cluj-Napoca"
 seo_title: "Reparații Laptop & Placă de Bază Cluj-Napoca | Fractal IT"
-description: "Reparații laptop și placă de bază: diagnoză circuite alimentare, reballing BGA, înlocuire componente SMD, curățare termică, optimizare software și consultanță IT în Cluj-Napoca."
+description: "Service laptop Cluj-Napoca: reparații hardware, reballing BGA, recuperare date și consultanță IT. Fractal IT - soluții complete pentru laptop-ul tău."
 excerpt: "Reparații laptop & placă de bază: diagnoză, reballing, optimizare, consultanță IT."
 permalink: /
 sitemap:
@@ -17,12 +17,12 @@ toc_label: "Cuprins"
 toc_icon: "list"
 classes: wide compact-head
 sidebar: false
-share: false
+share: true
 ---
 
 ## Despre
 
-Cel mai prietenos service laptop din Cluj-Napoca. Oferim intervenții rapide și reparații electronice pe placă de bază (diagnostic rail alimentare, reballing BGA, înlocuire componente SMD, reprogramare BIOS/EC), transparente și orientate spre reparare – nu înlocuire inutilă. Taxa de evaluare este fixă: **50 lei** (se scade din cost dacă accepți lucrarea).
+Cel mai prietenos service laptop din Cluj-Napoca. Oferim intervenții rapide și reparații electronice pe placă de bază (diagnostic rail alimentare, reballing BGA, înlocuire componente SMD, reprogramare BIOS/EC), transparente și orientate spre reparare – nu înlocuire inutilă. Taxa de evaluare este *fixă: 50 lei* (se scade din cost dacă accepți lucrarea).
 
 ### Simptome frecvente pentru reparații placa de bază
 - Pornire doar cu încărcător sau doar cu baterie
@@ -108,7 +108,7 @@ Pentru modele de gaming putem aplica soluții termice premium (ex. Thermal Grizz
 ## Politici & Garanție
 
 - Garanție standard: 90 zile pentru manoperă (sau conform specificului componentei înlocuite, dacă producătorul oferă diferit).
-- Nicio taxă ascunsă: taxa de evaluare (50 lei) se scade integral dacă se acceptă reparația.
+- Nicio taxă ascunsă: evaluarea de _50 lei_ se scade integral dacă se acceptă reparația.
 - Nu lucrăm cu piese de proveniență incertă – preferăm piese OEM sau calitate echivalentă verificată.
 - Operațiuni pe stocare numai prin «imaging» unde este posibil pentru a evita degradarea mediului original.
 - Confidențialitate: nu accesăm voluntar fișiere personale (aplicăm politici de minimizare a expunerii datelor).
@@ -144,13 +144,13 @@ Implementăm bune practici de securitate minimă la solicitare: activare BitLock
 ## Date de Contact
 
 📍 Ilie Măcelaru 26, Cluj-Napoca ([hartă](/contact/#harta))  
-📞 [0747-99.66.77](tel:0747996677)  
+📞 [Sună acum: 0747-99.66.77](tel:0747996677)  
 ✉️ <span id="email-obf" data-u="office" data-d="fractal.ro">[activare JavaScript]</span>  
 🕒 Luni–Vineri 8:30–17:00 · Sâmbătă Închis
 
 <div style="text-align: center; margin: 30px 0; padding: 20px; background: #f8f9fa; border-radius: 10px;">
   <h3>Ai nevoie de ajutor?</h3>
-  <p>Scrie-ne sau adu laptopul pentru evaluare. <br>Cost evaluare: <strong>50 lei</strong> (scăzut din lucrare dacă se acceptă intervenția).</p>
+  <p>Scrie-ne sau adu laptopul pentru evaluare. <br>Cost evaluare: <em>doar 50 lei</em> (scăzut din lucrare dacă se acceptă intervenția).</p>
   <a href="/contact/" class="btn btn--primary btn--large">Trimite solicitare</a>
 </div>
 

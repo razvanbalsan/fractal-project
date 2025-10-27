@@ -2,6 +2,7 @@
 layout: single
 title: "Contact - Sunt Multe Feluri în Care Puteți Lua Legătura cu Noi"
 permalink: /contact/
+description: "Contact Fractal IT Cluj-Napoca: 0747-99.66.77, Ilie Măcelaru 26. Program Luni-Vineri 8:30-17:00. Evaluare 50 lei."
 sitemap:
   priority: 0.8
   changefreq: monthly
@@ -19,10 +20,10 @@ excerpt: "Contactați Fractal IT pentru reparații electronică plăci, service 
 <small><a href="https://web.archive.org/web/20250611175710/https://maps.google.com/maps?saddr=" target="_blank" rel="noopener">Versiune arhivată</a></small>
 
 ### 📞 **Telefon**
-**[0747-99.66.77](tel:0747996677)**
+**[Apelează: 0747-99.66.77](tel:0747996677)**
 
 ### ✉️ **Email**
-**[office@fractal.ro](mailto:office@fractal.ro)**
+**[Trimite email: office@fractal.ro](mailto:office@fractal.ro)**
 
 ### 🕒 **Program de Lucru**
 - **Luni – Vineri:** 8:30 - 17:00
