@@ -80,7 +80,6 @@ social_share:
   - twitter
   - facebook
   - linkedin
-  - email
 ```
 
 ---
