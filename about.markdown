@@ -109,4 +109,4 @@ Suntem situați în **Cluj-Napoca**, pe strada **Ilie Măcelaru numărul 26**, �
   <a href="/contact/" class="btn btn--inverse btn--large">Contactează-ne astăzi</a>
 </div>
 
-**Fractal IT SRL - Partenerul dumneavoastră de încredere în tehnologie!**
+**Bortaru Florin PFA - Partenerul dumneavoastră de încredere în tehnologie!**
